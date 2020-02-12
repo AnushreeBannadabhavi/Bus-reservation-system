@@ -1,0 +1,5 @@
+BusID: 3
+Arrival: 18:00
+Departure: 21:00
+From: BLR
+To: DEL

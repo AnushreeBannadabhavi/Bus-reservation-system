@@ -1,0 +1,5 @@
+BusID: 2
+Arrival: 15:00
+Departure: 20:00
+From: BLR
+To: BOM

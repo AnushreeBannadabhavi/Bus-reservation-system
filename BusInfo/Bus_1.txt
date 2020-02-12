@@ -1,0 +1,5 @@
+BusID: 1
+Arrival: 9:00
+Departure: 14:00
+From: BLR
+To: CHN
