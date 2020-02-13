@@ -63,10 +63,9 @@ Bus_Reservation_System
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Navigate to the src directory `cd src`
-3. Make a build directory in the `src` directory: `mkdir build && cd build`
-4. Compile: `cmake .. && make`
-5. Run it: `./Bus_reservation_system`.
+2. Make a build directory in the top level directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make`
+4. Run it: `./Bus_reservation_system`.
 
 ## Rubric points addressed
 
