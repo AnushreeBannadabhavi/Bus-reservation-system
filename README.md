@@ -1,10 +1,52 @@
-# CPPND: Capstone Hello World Repo
+# CPPND: Capstone Project - Bus reservation system
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
+This is a Bus reservation system program written as Capstone project for the C++ Nanodegree program on Udacity.
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
+## Project overview
+This project is a console application and mimics a simple Bus reservation system. It enables the user to book a bus seat.
+* The user gets a list of places serviced by the bus company. 
+* The user then enters the city codes of the source, destination. He is also required to enter his details(name and contact number).
+* If the city codes entered are not serviced by the company, the user is prompted with an appropriate error message.
+* If the city codes are serviceable, the user is provided with the bus details viz. Bus ID, arrival and departure times and seat layout of the bus.
+* The user can choose the appropriate seat and the booking is confirmed.
+* If the user chooses a seat that's not available, he is prompted with an error message.
 
-In this project, you can build your own C++ application starting with this repo, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+### Future scope
+The project can be further expanded to facilitate booking cancellation, having multiple stops for a particular route, multiple buses for a particular route.
+Also, the booking data is destroyed once the session ends. This can be changed by storing the data in a database/file.
+
+### File Structure
+```
+Bus_Reservation_System
+|
++-- BusInfo
+|   |
+|   +-- (Bus information stored in different files)
+|
++-- src
+|   |
+|   +-- Bus.cpp
+|   |
+|   +-- Bus.h
+|   |
+|   +-- Route.cpp
+|   |
+|   +-- Route.h
+|   |
+|   +-- Reservation_system.cpp
+|   |
+|   +-- Reservation_system.h
+|   |
+|   +-- ui.cpp
+|   |
+|   +-- ui.h
+|   |
+|   +-- main.cpp
+|
++-- CMakeLists.txt
+|
++-- README.md
+```
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -21,6 +63,7 @@ In this project, you can build your own C++ application starting with this repo,
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./HelloWorld`.
+2. Navigate to the src directory `cd src`
+3. Make a build directory in the `src` directory: `mkdir build && cd build`
+4. Compile: `cmake .. && make`
+5. Run it: `./Bus_reservation_system`.
