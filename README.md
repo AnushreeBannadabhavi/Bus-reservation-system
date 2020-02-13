@@ -4,12 +4,13 @@ This is a Bus reservation system program written as Capstone project for the C++
 
 ## Project overview
 This project is a console application that mimics a simple Bus reservation system. It enables the user to book a bus seat.
-* The user gets a list of places serviced by the bus company. 
+* The user gets a list of places serviced by the bus company. The user is prompted with a message asking whether he wants to continue the session. "y" or "Y" can be pressed to confirm.
 * The user then enters the city codes of the source, destination. He is also required to enter his details (Name and contact number).
 * If the city codes entered, are not serviced by the company, the user is prompted with an appropriate error message.
 * If the city codes are serviceable, the user is provided with the bus details viz. Bus ID, arrival and departure times and seat layout of the bus.
 * The user can choose the appropriate seat and the booking is confirmed.
 * If the user chooses a seat that's not available, he is prompted with an error message.
+* The user is asked if he wants to end the session. "y" or "Y" can be pressed to confirm.
 
 ### Future scope
 The project can be further expanded to facilitate booking cancellation, having multiple stops for a particular route, multiple buses for a particular route.
